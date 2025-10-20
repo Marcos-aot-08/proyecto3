@@ -1,0 +1,21 @@
+#Body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#Encabezado {
+  width: 100%;
+  background-color: #a1a1a1;
+  padding: 1em;
+  color: black;
+  height: 5;
+}
+
+#Marvel {
+  width: 50%;
+  background-color: #b30101;
+  text-align: center;
+  padding: 1em;
+  margin-left: 15%;
