@@ -1,21 +1,35 @@
-#Body {
+body {
   font-family: Arial, sans-serif;
   margin: 0;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 #Encabezado {
   width: 100%;
   background-color: #a1a1a1;
+  text-align: center;
   padding: 1em;
   color: black;
-  height: 5;
+}
+
+#contenedor {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  flex-wrap: wrap;
+}
+
+#Marvel, #DC {
+  width: 45%;
+  padding: 1em;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  box-sizing: border-box;
 }
 
 #Marvel {
-  width: 50%;
   background-color: #b30101;
-  text-align: center;
-  padding: 1em;
-  margin-left: 15%;
+}
+
+#DC {
+  background-color: #477fe7;
+}
